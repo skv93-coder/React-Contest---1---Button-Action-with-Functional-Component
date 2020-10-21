@@ -8,12 +8,12 @@ function App() {
     setPara(
       "Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy"
     );
-    sig = 9;
+    sig = true;
   };
   return (
     <div id="main">
       <button id="click" onClick={() => handleClick()}></button>
-      {sig ? <p id="para">{para}</p> : null}
+      <p id="para">{para}</p>
     </div>
   );
 }
